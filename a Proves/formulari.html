@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulari</title>
+    <style>
+        body {background-color: #CFECF3;
+              margin: 0px;
+              padding: 0px;}
+
+        label {display: block;}
+
+        div {background-color: #CFECF3;
+            margin: 10px;
+            padding: 10px;}
+
+        #contenidor {width: 400px;
+                    background-color: #A4A4A4;}
+
+        .formateig {width: 300px;
+                    height: 30px;
+                    color: black;
+                    border: solid 1px white;
+                    background-color: #CFECF3;
+                    font-size: 18px;
+                    border-radius: 5px;}
+    </style>
+  </head>
+  <body>
+    <div id="contenidor">
+
+    <div>
+    <label>Nom</label>
+      <input type="text" id="Nom" class="formateig">
+    </div>
+
+    <div>
+    <label>1r Cognom</label>
+      <input type="text" id="Cognom1" class="formateig">
+    </div>
+
+    <div>
+    <label>2n Cognom</label>
+      <input type="text" id="Cognom2" class="formateig">
+    </div>
+
+    <div>
+      <label>DNI</label>
+        <input type="number" id="DNI" class="formateig">
+    </div>
+
+    <div>
+      <label>Contrasenya</label>
+        <input type="Password" class="formateig">
+    </div>
+
+    <div>
+      <label>Data de Naixement</label>
+        <input type="Date" class="formateig">
+    </div>
+
+    <div>
+      <label>Email</label>
+        <input type="email" id="Correu" class="formateig">
+    </div>
+
+    <div>
+      <label>Contrasenya</label>
+        <input type="password" id="Contrasenya" class="formateig">
+    </div>
+
+    <div>
+      <label>Telèfon</label>
+        <input type="tel" id="Telèfon" class="formateig">
+    </div>
+
+    <div>
+      <label>Busca</label>
+        <input type="search" id="Busca" class="formateig">
+    </div>
+
+    <div>
+      <label>Població de procedència</label>
+        <input list="poblacio" class="formateig">
+        <datalist id="poblacio">
+          <option value="KNY">
+          <option value="Cornellà">
+          <option value="L'Hospitalet">
+          <option value="Sant Boi">
+          <option value="Barcelona">
+          <option value="Esplugues">
+          <option value="Santa Coloma de Gramanet">
+        </datalist>
+    </div>
+
+    <div>
+      <label>Estudis</label>
+        <input type="checkbox" name="Estudis" value="ESO">ESO
+        <input type="checkbox" name="Estudis" value="GM">Grau Mitjà
+        <input type="checkbox" name="Estudis" value="GS">Grau Superior
+    </div>
+
+    <div>
+      <label>Sexe</label>
+        <input type="radio" name="sexe" value="Noi">Noi
+        <input type="radio" name="sexe" value="Noia">Noia
+    </div>
+
+    <div>
+      <label>Comentaris</label>
+        <textarea cols="24" rows="12" id="Comentaris" class="formateig"></textarea>
+    </div>
+
+    <div>
+      <label>Hora</label>
+      <input type="time" id="Hora" class="formateig">
+    </div>
+
+    <div>
+      <label>Instagram</label>
+        <input type="url" id="Instagram" class="formateig">
+    </div>
+
+    <div>
+        <input type="submit"></input>
+    </div>
+
+    <div>
+        <input type="reset"></input>
+    </div>
+  </body>
+</html>
